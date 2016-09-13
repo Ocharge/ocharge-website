@@ -10,6 +10,12 @@
 .right{
 	float: right;
 }
+.cent{
+	text-align: center;
+}
+.zero{
+	display: none;
+}
 /***************/
 /*Navigation styling*/
 /***************/
@@ -83,6 +89,27 @@
 	padding-right: 200px;
 	margin-top: -35px;
 }
+@media screen and (max-width: 1000px){
+	.log{
+		padding-left: 12px;
+		height: 15%;
+		width: 15%;
+	}
+	.play{
+		padding-right: 12px;
+		margin-top: -48px;
+		height: 20% !important;
+		width: 20% !important;
+	}
+	.li{
+	margin-left: -5px;
+	margin-right: -5px;
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+}
+}
+
 /****************/
 /*End of Navigation*/
 /****************/
@@ -92,9 +119,12 @@
 /****************/
 #home{
 	background-image: url(../assets/bg.jpg);
-	height: 95%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-
+.up-move{
+	padding-top: 9.5%;
+}
 
 
 
