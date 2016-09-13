@@ -21,8 +21,20 @@
 	height: 12%;
 	width: 12%;
 }
+.play-home{
+	padding-right: 12px;
+	margin-top: -48px;
+	height: 12%;
+	width: 12%;
+}
+
 .nav{
 	background-color: white !important;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.nav-home{
+	background-color: none !important;
 	padding-top: 12px;
 	padding-bottom: 12px;
 }
@@ -44,6 +56,19 @@
 }
 .anchors:hover{
 	color: #a33eff;
+	border-bottom: 2px solid;
+}
+.anchors-home{
+	border-radius: 5px;
+	color: white;
+	font-weight: 600;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.anchors-home:hover{
+	color: white;
 	border-bottom: 2px solid;
 }
 .links{
