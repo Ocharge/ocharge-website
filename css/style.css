@@ -29,11 +29,15 @@
 }
 
 .nav{
+	position: fixed;
+	width: 100%;
 	background-color: white !important;
 	padding-top: 12px;
 	padding-bottom: 12px;
 }
 .nav-home{
+	position: fixed;
+	width: 100%;
 	background-color: none !important;
 	padding-top: 12px;
 	padding-bottom: 12px;
