@@ -1,15 +1,18 @@
 *{
 	font-family: 'Quicksand', sans-serif;
 }
+/*****************/
+/*General styling*/
+/*****************/
 .left{
 	float: left;
 }
 .right{
 	float: right;
 }
-.full{
-	width: 100%;
-}
+/***************/
+/*Navigation styling*/
+/***************/
 .log{
 	padding-left: 12px;
 	height: 10%;
@@ -21,33 +24,12 @@
 	height: 12%;
 	width: 12%;
 }
-.play-home{
-	padding-right: 12px;
-	margin-top: -48px;
-	height: 12%;
-	width: 12%;
-}
-
 .nav{
 	position: fixed;
 	width: 100%;
 	background-color: white !important;
 	padding-top: 12px;
 	padding-bottom: 12px;
-}
-.nav-home{
-	position: fixed;
-	width: 100%;
-	background-color: none !important;
-	padding-top: 12px;
-	padding-bottom: 12px;
-}
-.li{
-	margin-left: -5px;
-	margin-right: -5px;
-	display: inline;
-	padding: 10px;
-	text-transform: uppercase;
 }
 .anchors{
 	border-radius: 5px;
@@ -62,6 +44,27 @@
 	color: #a33eff;
 	border-bottom: 2px solid;
 }
+.li{
+	margin-left: -5px;
+	margin-right: -5px;
+	display: inline;
+	padding: 10px;
+	text-transform: uppercase;
+}
+/*Clear navigation*/
+.nav-home{
+	position: fixed;
+	width: 100%;
+	background-color: none !important;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.play-home{
+	padding-right: 12px;
+	margin-top: -48px;
+	height: 12%;
+	width: 12%;
+}
 .anchors-home{
 	border-radius: 5px;
 	color: white;
@@ -75,11 +78,23 @@
 	color: white;
 	border-bottom: 2px solid;
 }
+/*end of clear navigation*/
 .links{
 	padding-right: 200px;
 	margin-top: -35px;
 }
+/****************/
+/*End of Navigation*/
+/****************/
+
+/****************/
+/*Home Page*/
+/****************/
 #home{
 	background-image: url(../assets/bg.jpg);
 	height: 95%;
 }
+
+
+
+
