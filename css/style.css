@@ -103,17 +103,19 @@
 		height: 18%;
 		width: 18%;
 	}
-	.play{
+	.play, .play-home{
 		padding-right: 12px;
 		margin-top: -35px;
 		height: 18% !important;
 		width: 18% !important;
 	}
 	.li{
+		width: 100% !important;
+		border-bottom: 1px solid #ff5252;
 	margin-left: 0px;
-	margin-right: 0px;
 	display: block;
 	padding: 5px;
+	padding-right: 1000px;
 	text-transform: uppercase;
 }
   .br {
@@ -121,7 +123,15 @@
     display: block !important;
     margin-top: -35px; }
   
-
+  	.icn-home{
+		color: #fff;
+		 border-radius: 4px;
+    border: 1px solid;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 12px;
+    padding: 5px;
+	}  
   .icn {
   	color: #ff5252;
     border-radius: 4px;
@@ -130,17 +140,26 @@
     display: inline-block !important;
     font-size: 12px;
     padding: 5px;}
-    .anchors{
+    .anchors, .anchors-home{
+    	border:none !important;
+    color: #ff5252;
    font-size: 12px;
    padding-top: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	padding-right: 0px;
-    }
+	padding-right: 1000px;
+   }
+   .li:hover{
+   	background-color: #ff5252;
+   }
+   .li:hover .anchors, .li:hover .anchors-home{
+   	color: white;
+   }
     .links{
+    background-color: white;
 	float: none;
 	padding-right: 200px;
-	margin-top: -35px;
+	margin-top: -20px;
 }
 }
 @media screen and (max-width: 600px){
@@ -150,7 +169,7 @@
 		height: 20%;
 		width: 20%;
 	}
-	.play{
+	.play, .play-home{
 		padding-right: 12px;
 		margin-top: -30px;
 		height: 20% !important;
@@ -160,16 +179,6 @@
   	padding-left: 5px;
     display: block !important;
     margin-top: -35px; }
-  
-
-  .icn {
-  	color: #ff5252;
-    border-radius: 4px;
-    border: 1px solid;
-    cursor: pointer !important;
-    display: inline-block !important;
-    font-size: 12px;
-    padding: 5px;}
 }
 @media screen and (max-width: 500px){
 
@@ -178,7 +187,7 @@
 		height: 25%;
 		width: 25%;
 	}
-	.play{
+	.play, .play-home{
 		padding-right: 12px;
 		margin-top: -30px;
 		height: 25% !important;
@@ -192,7 +201,7 @@
 		height: 35%;
 		width: 35%;
 	}
-	.play{
+	.play, .play-home{
 		padding-right: 12px;
 		margin-top: -30px;
 		height: 35% !important;
