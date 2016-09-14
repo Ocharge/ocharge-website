@@ -4,6 +4,14 @@
 /*****************/
 /*General styling*/
 /*****************/
+.overlay{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQYV2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBX45Xb8AAAAASUVORK5CYII=)repeat;
+	height: 100%;
+}
+.ovr{
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
+}
 li{
 	list-style: none;
 }
@@ -282,14 +290,14 @@ li{
 }
 
 .social:hover {
-  background-color: white; 
+  background-color: white;
+  color: #a33eff; 
 }
 .foot{
 	color: white;
 }
 .foot:hover{
-	color: white;
-	text-decoration: underline;
+color: #a33eff;
 }
 /****************/
 /*End of Navigation*/
@@ -314,6 +322,20 @@ li{
 	border-radius: 5px;
 	padding: 10px;
 }
+/***************/
+/*End of Home*/
+/***************/
+
+/***************/
+/*Contact styling*/
+/***************/
+#contact{
+	background-image: url(../assets/contact.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
 
 
 
