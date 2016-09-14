@@ -136,6 +136,9 @@ li{
 	display: none;
 }
 @media screen and (max-width: 1000px){
+	.Map{
+		display: none;
+	}
 	.hide-nav{
 		height: 0;
 		opacity: 0;
