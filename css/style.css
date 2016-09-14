@@ -24,6 +24,28 @@
 	color:#1E90FF;
 	background-color:white;
 }
+.back-rd{
+	background-color: 1px solid #ff5252;
+	background-color: #ff5252;
+}
+.back-rd:hover{
+	color: #ff5252;
+	background-color: white;
+	border:1px solid;
+}
+.rd{
+	color: #ff5252;
+}
+.bg{
+	font-size: 25px;
+}
+.bg-red{
+	font-size: 22px;
+	color: #ff5252;
+}
+.mdim{
+	font-size: 18px;
+}
 /***************/
 /*Navigation styling*/
 /***************/
@@ -246,13 +268,6 @@
 }
 .up-move{
 	padding-top: 9.5%;
-}
-.bg{
-	font-size: 25px;
-}
-.bg-red{
-	font-size: 22px;
-	color: #ff5252;
 }
 .on-re, .on-de, .on-po, .off-re:hover, .off-de:hover, .off-po:hover{
 	background-color: rgba(255,0,0,0.1);

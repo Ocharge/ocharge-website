@@ -15,33 +15,33 @@ $('#deals').hide();
 // points
 $(function() {
   $( ".points" ).click(function() {
-    $( "#points" ).fadeIn( 300 );
-    $('#recharge').fadeOut(300);
-    $("#deals").fadeOut(300);
-    $(".off-po").addClass("on-po", 300);
-    $(".off-re").removeClass("on-re", 300);
-    $(".off-de").removeClass("on-de", 300);
+    $( "#points" ).show();
+    $('#recharge').hide();
+    $("#deals").hide();
+    $(".off-po").addClass("on-po");
+    $(".off-re").removeClass("on-re");
+    $(".off-de").removeClass("on-de");
   });
 });
 // deals
 $(function() {
   $( ".deals" ).click(function() {
-    $( "#deals" ).fadeIn( 300 );
-    $('#recharge').fadeOut(300);
-    $("#points").fadeOut(300);
-    $(".off-de").addClass("on-de", 300);
-    $(".off-re").removeClass("on-re", 300);
-    $(".off-po").removeClass("on-po", 300);
+    $( "#deals" ).show();
+    $('#recharge').hide();
+    $("#points").hide();
+    $(".off-de").addClass("on-de");
+    $(".off-re").removeClass("on-re");
+    $(".off-po").removeClass("on-po");
   });
 });
 // Recharge
 $(function() {
   $( ".recharge" ).click(function() {
-    $( "#recharge" ).fadeIn( 300 );
-    $('#deals').fadeOut(300);
-    $("#points").fadeOut(300);
-    $(".off-re").addClass("on-re", 300);
-    $(".off-de").removeClass("on-de", 300);
-    $(".off-po").removeClass("on-po", 300);
+    $( "#recharge" ).show();
+    $('#deals').hide();
+    $("#points").hide();
+    $(".off-re").addClass("on-re");
+    $(".off-de").removeClass("on-de");
+    $(".off-po").removeClass("on-po");
   });
 });
