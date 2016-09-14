@@ -26,7 +26,7 @@
 }
 .play{
 	padding-right: 12px;
-	margin-top: -3.5%;
+	margin-top: -3.0%;
 	height: 10%;
 	width: 10%;
 }
@@ -67,7 +67,7 @@
 }
 .play-home{
 	padding-right: 12px;
-	margin-top: -3.5%;
+	margin-top: -3.0%;
 	height: 10%;
 	width: 10%;
 }
@@ -88,7 +88,7 @@
 .links{
 	float: right;
 	padding-right: 12%;
-	margin-top: -3%;
+	margin-top: -2.5%;
 }
 .br, .r{
 	display: none;
@@ -106,7 +106,7 @@
 	}
 	.r{
 		display: block;
-		margin-bottom: 1%;
+		margin-bottom: -1.5%;
 			}
 	.log{
 		padding-left: 35px;
@@ -172,7 +172,7 @@
     background-color: white;
 	float: none;
 	padding-right: 200px;
-	margin-top: -20px;
+	margin-top: -7px;
 }
 }
 @media screen and (max-width: 600px){
