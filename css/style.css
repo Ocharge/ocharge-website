@@ -115,7 +115,7 @@
 	.r{
 		display: block;
 		margin-bottom: -1.5%;
-			}
+	}
 	.log{
 		padding-left: 35px;
 		height: 18%;
@@ -130,20 +130,20 @@
 	.li{
 		width: 100% !important;
 		border-bottom: 1px solid #ff5252;
-	margin-left: 0px;
-	display: block;
-	padding: 5px;
-	padding-right: 1000px;
-	text-transform: uppercase;
-}
+		margin-left: 0px;
+		display: block;
+		padding: 5px;
+		padding-right: 1000px;
+		text-transform: uppercase;
+	}
   .br {
   	padding-left: 5px;
     display: block !important;
-    margin-top: -35px; }
-  
-  	.icn-home, .icn-home:hover{
+    margin-top: -35px; 
+  }
+  .icn-home, .icn-home:hover{
 		color: #fff;
-		 border-radius: 4px;
+		border-radius: 4px;
     border: 1px solid;
     cursor: pointer !important;
     display: inline-block !important;
@@ -158,33 +158,32 @@
     display: inline-block !important;
     font-size: 12px;
     padding: 5px;}
-    .icn:hover{
-    	color: #a33eff;
-    }
-    .anchors, .anchors-home{
-    	border:none !important;
-    color: #ff5252;
-   font-size: 12px;
-   padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 1000px;
-   }
-   .li:hover{
+  .icn:hover{
+    color: #a33eff;
+  }
+  .anchors, .anchors-home{
+		border:none !important;
+		color: #ff5252;
+		font-size: 12px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 1000px;
+  }
+  .li:hover{
    	background-color: #ff5252;
-   }
-   .li:hover .anchors, .li:hover .anchors-home{
+  }
+  .li:hover .anchors, .li:hover .anchors-home{
    	color: white;
-   }
-    .links{
-    background-color: white;
-	float: none;
-	padding-right: 200px;
-	margin-top: -7px;
-}
+  }
+  .links{
+	  background-color: white;
+		float: none;
+		padding-right: 200px;
+		margin-top: -7px;
+	}
 }
 @media screen and (max-width: 600px){
-
 	.log{
 		padding-left: 35px;
 		height: 20%;
@@ -202,7 +201,6 @@
     margin-top: -35px; }
 }
 @media screen and (max-width: 500px){
-
 	.log{
 		padding-left: 35px;
 		height: 25%;
@@ -216,7 +214,6 @@
 	}
 }
 @media screen and (max-width: 400px){
-
 	.log{
 		padding-left: 35px;
 		height: 35%;
@@ -231,8 +228,8 @@
   .br {
   	padding-left: 5px;
     display: block !important;
-    margin-top: -30px; }
-
+    margin-top: -30px;
+  }
 }
 
 /****************/
@@ -249,6 +246,9 @@
 }
 .up-move{
 	padding-top: 9.5%;
+}
+.bg{
+	font-size: 25px;
 }
 
 
