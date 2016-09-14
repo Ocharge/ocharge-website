@@ -16,6 +16,14 @@
 .zero{
 	display: none;
 }
+.btn{
+	background-color:#1E90FF; 
+	color:white;
+}
+.btn:hover{
+	color:#1E90FF;
+	background-color:white;
+}
 /***************/
 /*Navigation styling*/
 /***************/
