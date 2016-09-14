@@ -14,7 +14,7 @@
 	text-align: center;
 }
 .zero{
-	display: none;
+	opacity: 0;
 }
 .btn{
 	background-color:#1E90FF; 
@@ -249,6 +249,17 @@
 }
 .bg{
 	font-size: 25px;
+}
+.bg-red{
+	font-size: 22px;
+	color: #ff5252;
+}
+.on-re, .on-de, .on-po, .off-re:hover, .off-de:hover, .off-po:hover{
+	background-color: rgba(255,0,0,0.1);
+}
+.off-re, .off-de, .off-po{
+	border-radius: 5px;
+	padding: 10px;
 }
 
 
