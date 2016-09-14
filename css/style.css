@@ -326,14 +326,19 @@ color: #a33eff;
 	padding: 10px;
 }
 /***************/
-/*End of Home*/
-/***************/
-
-/***************/
 /*Contact styling*/
 /***************/
 #contact{
 	background-image: url(../assets/contact.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+/**************/
+/*About styling*/
+/*************/
+#about{
+	background-image: url(../assets/about.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
