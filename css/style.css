@@ -333,13 +333,29 @@ color: #a33eff;
 	border-radius: 5px;
 	padding: 10px;
 }
+.dots {
+	display: none;
+}
 @media screen and (max-width: 700px){
-	.off-po, .off-de{
-		display: none;
-	}
-	.on-re, .on-de, .on-po{
+	.dots{
 		display: block;
-		background-color: rgba(255,0,0,0.1);
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.dots a{
+		padding: 8px;
+		font-size: 30px;
+	}
+	.dots-off{
+		color: #ff5252;
+		border:1px solid #ff5252;
+	}
+	.dot-on{
+		color: white;
+		border:1px solid #ff5252;
+	}
+	.deals, .points{
+		display: none;
 	}
 }
 
