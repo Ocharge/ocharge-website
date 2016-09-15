@@ -59,7 +59,7 @@ $(function() {
     $(".points").show();
     $('.recharge').hide();
     $(".deals").hide();
-    // colors
+    // colors text
     $(".off-po").addClass("on-po");
     $(".off-re").removeClass("on-re");
     $(".off-de").removeClass("on-de");
@@ -76,7 +76,7 @@ $(function() {
     $(".deals").show();
     $('.recharge').hide();
     $(".points").hide();
-    // colors
+    // colors text
     $(".off-de").addClass("on-de");
     $(".off-re").removeClass("on-re");
     $(".off-po").removeClass("on-po");
@@ -93,7 +93,7 @@ $(function() {
     $(".recharge").show();
     $('.points').hide();
     $(".deals").hide();
-    // colors
+    // colors text
     $(".off-re").addClass("on-re");
     $(".off-po").removeClass("on-po");
     $(".off-de").removeClass("on-de");

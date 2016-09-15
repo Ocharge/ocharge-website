@@ -346,13 +346,11 @@ color: #a33eff;
 		padding: 8px;
 		font-size: 30px;
 	}
-	.dots-off{
+	.dot-off{
 		color: #ff5252;
-		border:1px solid #ff5252;
 	}
 	.dot-on{
-		color: white;
-		border:1px solid #ff5252;
+		color: #a33eff;
 	}
 	.deals, .points{
 		display: none;
