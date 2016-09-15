@@ -346,10 +346,10 @@ color: #a33eff;
 		padding: 8px;
 		font-size: 30px;
 	}
-	.dot-off{
+	.re-off, .de-off, .po-off{
 		color: #ff5252;
 	}
-	.dot-on{
+	.re-on, .de-on, .po-on{
 		color: #a33eff;
 	}
 	.deals, .points{
