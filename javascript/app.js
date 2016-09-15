@@ -45,7 +45,10 @@ $(function() {
     $(".off-po").removeClass("on-po");
   });
 });
+// ************
 // Mobile slides!
+// ************
+// points
 $(function() {
   $( ".points-dot" ).click(function() {
     // phones
@@ -59,6 +62,40 @@ $(function() {
     // colors
     $(".off-po").addClass("on-po");
     $(".off-re").removeClass("on-re");
+    $(".off-de").removeClass("on-de");
+  });
+});
+// deals
+$(function() {
+  $( ".deals-dot" ).click(function() {
+    // phones
+    $( "#deals" ).show();
+    $('#recharge').hide();
+    $("#points").hide();
+    // texts
+    $(".deals").show();
+    $('.recharge').hide();
+    $(".points").hide();
+    // colors
+    $(".off-de").addClass("on-de");
+    $(".off-re").removeClass("on-re");
+    $(".off-po").removeClass("on-po");
+  });
+});
+// Recharge
+$(function() {
+  $( ".recharge-dot" ).click(function() {
+    // phones
+    $( "#recharge" ).show();
+    $('#points').hide();
+    $("#deals").hide();
+    // texts
+    $(".recharge").show();
+    $('.points').hide();
+    $(".deals").hide();
+    // colors
+    $(".off-re").addClass("on-re");
+    $(".off-po").removeClass("on-po");
     $(".off-de").removeClass("on-de");
   });
 });
