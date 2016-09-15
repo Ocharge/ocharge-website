@@ -57,6 +57,10 @@ li{
 .mdim{
 	font-size: 18px;
 }
+.video{
+	width:500px;
+	height: 294px;
+}
 /***************/
 /*Navigation styling*/
 /***************/
@@ -136,6 +140,9 @@ li{
 	display: none;
 }
 @media screen and (max-width: 1000px){
+	.video{
+		width: 100%;
+	}
 	.Map{
 		display: none;
 	}
@@ -152,6 +159,7 @@ li{
 	.r{
 		display: block;
 		margin-bottom: -1.5%;
+		width: 100%;
 	}
 	.log{
 		padding-left: 35px;
