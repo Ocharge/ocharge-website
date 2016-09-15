@@ -63,6 +63,10 @@ $(function() {
     $(".off-po").addClass("on-po");
     $(".off-re").removeClass("on-re");
     $(".off-de").removeClass("on-de");
+    // colors dots
+    $(".po-off").addClass("po-on");
+    $(".re-off").removeClass("re-on");
+    $(".de-off").removeClass("de-on");
   });
 });
 // deals
@@ -80,6 +84,10 @@ $(function() {
     $(".off-de").addClass("on-de");
     $(".off-re").removeClass("on-re");
     $(".off-po").removeClass("on-po");
+    // colors dots
+    $(".de-off").addClass("de-on");
+    $(".re-off").removeClass("re-on");
+    $(".po-off").removeClass("po-on");
   });
 });
 // Recharge
@@ -95,7 +103,11 @@ $(function() {
     $(".deals").hide();
     // colors text
     $(".off-re").addClass("on-re");
-    $(".off-po").removeClass("on-po");
     $(".off-de").removeClass("on-de");
+    $(".off-po").removeClass("on-po");
+    // colors dots
+    $(".re-off").addClass("re-on");
+    $(".po-off").removeClass("po-on");
+    $(".de-off").removeClass("de-on");
   });
 });

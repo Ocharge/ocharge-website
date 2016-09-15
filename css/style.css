@@ -349,7 +349,7 @@ color: #a33eff;
 	.re-off, .de-off, .po-off{
 		color: #ff5252;
 	}
-	.re-on, .de-on, .po-on{
+	.re-on, .de-on, .po-on, .re-off:hover, .de-off:hover, .po-off:hover{
 		color: #a33eff;
 	}
 	.deals, .points{
