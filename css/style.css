@@ -339,8 +339,9 @@ color: #a33eff;
 #contact{
 	background-image: url(../assets/contact.jpg);
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
-	height: 100%;
+	height: 85%;
 }
 /**************/
 /*About styling*/

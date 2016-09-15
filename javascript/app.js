@@ -45,3 +45,20 @@ $(function() {
     $(".off-po").removeClass("on-po");
   });
 });
+// Mobile slides!
+$(function() {
+  $( ".points-dot" ).click(function() {
+    // phones
+    $( "#points" ).show();
+    $('#recharge').hide();
+    $("#deals").hide();
+    // texts
+    $(".points").show();
+    $('.recharge').hide();
+    $(".deals").hide();
+    // colors
+    $(".off-po").addClass("on-po");
+    $(".off-re").removeClass("on-re");
+    $(".off-de").removeClass("on-de");
+  });
+});
