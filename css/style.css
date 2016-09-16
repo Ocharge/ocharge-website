@@ -136,6 +136,9 @@ li{
 	padding-right: 12%;
 	margin-top: -2.5%;
 }
+.links li{
+	display: inline;
+}
 .br, .r{
 	display: none;
 }
