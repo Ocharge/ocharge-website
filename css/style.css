@@ -400,6 +400,17 @@ color: #a33eff;
 	}
 }
 
+/**************/
+/*Ombassador styling*/
+/*************/
+#ombassador{
+	background-image: url(../assets/ombassador.png);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 90%;
+}
+
 
 
 
