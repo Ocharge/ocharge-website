@@ -111,3 +111,12 @@ $(function() {
     $(".de-off").removeClass("de-on");
   });
 });
+
+// Messages
+$('.message-sent').hide();
+$(function(){
+	$('.msg-lnk').click(function(){
+		$('.message-link').fadeOut();
+		$('.message-sent').fadeIn();
+	});
+});
