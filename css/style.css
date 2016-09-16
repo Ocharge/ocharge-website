@@ -4,13 +4,27 @@
 /*****************/
 /*General styling*/
 /*****************/
-.overlay{
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQYV2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBX45Xb8AAAAASUVORK5CYII=)repeat;
-	height: 100%;
+.go-top {
+  border: 1px solid #ff5252;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0.75em;
+  right: 0.5em;
+  text-decoration: none;
+  color: #ff5252;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+  display: none;
+  margin: 0;
+  padding: 4px 10px 4px 10px;
+  z-index: 10; 
 }
-.ovr{
-	background-color: rgba(0,0,0,0.3);
-	height: 100%;
+.go-top:hover {
+	border-color: white;
+  background-color: #ff5252;
+  color: white;
+  text-decoration: none; 
 }
 li{
 	list-style: none;
@@ -26,14 +40,6 @@ li{
 }
 .zero{
 	opacity: 0;
-}
-.btn{
-	background-color:#1E90FF; 
-	color:white;
-}
-.btn:hover{
-	color:#1E90FF;
-	background-color:white;
 }
 .back-rd{
 	background-color: 1px solid #ff5252;
@@ -325,6 +331,14 @@ color: #a33eff;
 	background-image: url(../assets/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.btn{
+	background-color:#1E90FF; 
+	color:white;
+}
+.btn:hover{
+	color:#1E90FF;
+	background-color:white;
 }
 .up-move{
 	padding-top: 9.5%;
