@@ -14,7 +14,7 @@ $('#points').hide();
 $('#deals').hide();
 // points
 $(function() {
-  $( ".points" ).click(function() {
+	$( ".points" ).click(function() {
     $( "#points" ).show();
     $('#recharge').hide();
     $("#deals").hide();
