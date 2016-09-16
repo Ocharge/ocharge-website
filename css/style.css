@@ -411,9 +411,13 @@ color: #a33eff;
 	height: 90%;
 }
 .be-o{
-	padding-top: 30%;
+	padding-top: 300px;
 }
-
+@media screen and (max-width: 500px){
+	.be-o{
+		padding-top: 200px;
+	}
+}
 
 
 
