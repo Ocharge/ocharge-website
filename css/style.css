@@ -149,6 +149,10 @@ li{
 	display: none;
 }
 @media screen and (max-width: 1000px){
+	.reduce{
+		height: 80%;
+		width: 80%;
+	}
 	.video{
 		width: 100%;
 	}
