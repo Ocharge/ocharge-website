@@ -323,6 +323,22 @@ li{
 .foot:hover{
 color: #a33eff;
 }
+.powered{
+	height: 10%;
+	width: 10%;
+}
+@media screen and (max-width: 800px){
+	.powered{
+		height: 20%;
+		width: 20%;
+	}
+}
+@media screen and (max-width: 400px){
+	.powered{
+		height: 30%;
+		width: 30%;
+	}
+}
 /****************/
 /*End of Navigation*/
 /****************/
