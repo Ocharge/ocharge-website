@@ -264,9 +264,9 @@ li{
 	}
 	.play, .play-home{
 		padding-right: 58px;
-		margin-top: -40px;
-		height: 25% !important;
-		width: 25% !important;
+		margin-top: -38px;
+		height: 35% !important;
+		width: 35% !important;
 	}
 }
 @media screen and (max-width: 400px){
@@ -274,16 +274,19 @@ li{
 		height: 35%;
 		width: 35%;
 	}
+	.icn, .icn-home{
+		font-size: 13px;
+	}
 	.play, .play-home{
-		padding-right: 58px;
-		margin-top: -40px;
-		height: 35% !important;
-		width: 35% !important;
+		padding-right: 56px;
+		margin-top: -34px;
+		height: 45% !important;
+		width: 45% !important;
 	}
   .br {
   	padding-right: 20px;
     display: block !important;
-    margin-top: -30px;
+    margin-top: 0px;
   }
 }
 
