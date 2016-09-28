@@ -179,10 +179,10 @@ li{
 		width: 18%;
 	}
 	.play, .play-home{
-		padding-right: 6%;
+		margin-right: 5%;
 		margin-top: -5%;
-		height: 22% !important;
-		width: 22% !important;
+		height: 16% !important;
+		width: 16% !important;
 	}
 	.li{
 		width: 100% !important;
@@ -236,8 +236,7 @@ li{
   .links{
 	  background-color: white;
 		float: none;
-		padding-right: 200px;
-		margin-top: -1%;
+		margin-top: 1%;
 	}
 }
 @media screen and (max-width: 600px){
@@ -246,8 +245,8 @@ li{
 		width: 20%;
 	}
 	.play, .play-home{
-		padding-right: 9%;
-		margin-top: -6%;
+		margin-right: 2%;
+		margin-top: -6.5%;
 		height: 28% !important;
 		width: 28% !important;
 	}
@@ -262,10 +261,10 @@ li{
 		width: 25%;
 	}
 	.play, .play-home{
-		padding-right: 5%;
+		margin-right: 2%;
 		margin-top: -8%;
-		height: 35% !important;
-		width: 35% !important;
+		height: 30% !important;
+		width: 30% !important;
 	}
 }
 @media screen and (max-width: 400px){
@@ -274,10 +273,10 @@ li{
 		width: 35%;
 	}
 	.play, .play-home{
-		padding-right: 12%;
+		margin-right: 4%;
 		margin-top: -11%;
-		height: 46% !important;
-		width: 46% !important;
+		height: 42% !important;
+		width: 42% !important;
 	}
 }
 
